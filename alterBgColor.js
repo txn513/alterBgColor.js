@@ -4,15 +4,17 @@
 				options = $.extend({
 					odd: "odd",
 					even: "even",
-					selected: "selected"
+					checked: "checked"
 				}, options);
 				$("tbody>tr:odd", this).addClass(options.odd);
 				$("tbody>tr:even", this).addClass(options.even);
 				$("tbody>tr", this).click(function(){
-					var hasSelected = $(this).selected;
-					$(this)[hasSelected?"removeClass":"addClass"](options.selected);
-					$(this).attr("check", !hasSelected);
+					var hasChecked = $(this).attr("checked");;
+					$(this)[hasChecked?"removeClass":"addClass"](options.checked)
+					.attr("checked", !hasSelected);
 				});
+				//默认选中元素高亮显示
+				$("tbody>tr:has(:checked)").addClass(options.checked);
 		}
 	});
 })(jquery)
