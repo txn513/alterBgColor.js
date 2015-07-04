@@ -15,6 +15,7 @@
 				});
 				//默认选中元素高亮显示
 				$("tbody>tr:has(:checked)").addClass(options.checked);
+				return this;
 		}
 	});
 })(jquery)
