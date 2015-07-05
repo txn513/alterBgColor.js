@@ -6,10 +6,11 @@
 					even: "even",
 					checked: "checked"
 				}, options);
+				var hasChecked = false;
 				$("tbody>tr:odd", this).addClass(options.odd);
 				$("tbody>tr:even", this).addClass(options.even);
 				$("tbody>tr", this).click(function(){
-					var hasChecked = $(this).attr("checked");
+					hasChecked = $(this).hasClass(options.checked);
 					$(this)[hasChecked?"removeClass":"addClass"](options.checked)
 					.find(":checkbox")
 					.attr("checked", !hasChecked);
