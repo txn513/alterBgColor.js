@@ -27,6 +27,7 @@ table th{
 	width: 70px;
 	height: 40px;
 	border: 1px solid #000;
+	cursor: pointer;
 }
 table td{
 	text-align: center;
