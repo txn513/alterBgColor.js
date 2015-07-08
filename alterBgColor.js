@@ -13,7 +13,7 @@
 					hasChecked = $(this).hasClass(options.checked);
 					$(this)[hasChecked?"removeClass":"addClass"](options.checked)
 					.find(":checkbox")
-					.attr("checked", !hasChecked);
+					.prop("checked", !hasChecked);
 				});
 				//默认选中元素高亮显示
 				$("tbody>tr:has(':checked')").addClass(options.checked);
