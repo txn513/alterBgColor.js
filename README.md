@@ -1,6 +1,6 @@
-# jQuery.color 
+# alterBgColor.js 
 
-jQuery.color方法设置或返回被选元素color属性。 用于替代.css('color')方法;
+alterBgColor.js设置表单各行变色插件。 
 
 ## 更新日志
 
@@ -20,10 +20,9 @@ jQuery.color方法设置或返回被选元素color属性。 用于替代.css('co
 
 ## 下载方法
 
-- [jquery.color.js](https://github.com/txn513/jquery-color) 
+- [alterBgColor.js](https://github.com/txn513/alterBgColor.js) 
 
 ## 安装指南
 
-1. 在引入 jQuery 后，引入 jquery.color.js。 
-2. 然后在 `$(function(){})` 里使用 `$(selector).color()` 即可。
-3. 如需设置指定的 color 属性，请使用如下语法：color("value")。
+1. 在引入 jQuery 后，引入 alterBgColor.js。 
+2. 然后在 `$(function(){})` 里使用 `$("table").alterBgColor()` 即可。
