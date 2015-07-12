@@ -26,3 +26,4 @@ alterBgColor.js设置表单各行变色插件。
 
 1. 在引入 jQuery 后，引入 alterBgColor.js。 
 2. 然后在 `$(function(){})` 里使用 `$("table").alterBgColor()` 即可。
+3. 配合css样式更改颜色。
