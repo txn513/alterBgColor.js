@@ -14,7 +14,7 @@ alterBgColor.js设置表单各行变色插件。
 
 ## 依赖
 
-本插件依赖 jQuery，开发插件使用的 jQuery 版本为 1.11.1。
+本插件依赖 jQuery，开发插件使用的 jQuery 版本为 1.11.3。
 
 使用本插件时，需要引入 jQuery 。
 
